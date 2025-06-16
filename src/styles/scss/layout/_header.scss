@@ -1,0 +1,339 @@
+/* --------------------------------------------
+    Header section
+-------------------------------------------- */
+@use 'abstracts/index' as *;
+
+.header {
+    height: 100vh;
+    padding: 0 6.4rem;
+    position: relative;
+    overflow: hidden;
+
+    // div with this class is defined just for scaling the background image
+    .backgroundImg {
+        background: url('../../assets/img/header.png');
+        background-position: center;
+        background-size: cover;
+        transform: scale(1);
+        animation: headerBackgroundImage 3s forwards;
+        z-index: -1;
+        @include positioning($top: 0, $left: 0, $width: 100%, $height: 100%);
+    }
+
+    .nav {
+        height: 15vh;
+        @include flex(space-between);
+
+        @include rwd(1200) {
+            @include flex(space-between);
+        }
+
+        .hamburger {
+            width: 3.6rem;
+            height: 2.4rem;
+            cursor: pointer;
+            display: none;
+
+            @include rwd(1200) {
+                display: block;
+            }
+
+            &__line {
+                &:not(:last-child) {
+                    margin-bottom: 0.8rem;
+                }
+
+                width: 100%;
+                height: .4rem;
+                background-color: $secondary-color;
+            }
+
+            &__line--2 {
+                width: 2.4rem;
+            }
+        }
+
+        &__list {
+            position: relative;
+
+            @include flex(flex-start, center, 3.2rem, row);
+
+            @include rwd(1200) {
+                display: none;
+            }
+
+            &__item {
+                label {
+                    cursor: pointer;
+                }
+            }
+
+            .nav__dropdown {
+                display: none;
+                margin-top: 1rem;
+                background-color: $primary-color;
+                padding: 1.6rem 3.2rem;
+                @include positioning($left: -2rem);
+
+                &:before {
+                    content: "";
+                    background-color: $primary-color;
+                    transform: rotate(45deg);
+                    @include positioning($left: 4rem, $bottom: calc(100% - .5rem), $width: 1rem, $height: 1rem);
+                }
+
+                a {
+                    color: $secondary-color;
+                    display: block;
+                    text-align: center;
+                    border-bottom: .1rem solid $secondary-color;
+                    z-index: 100;
+                    position: relative;
+                    padding-bottom: 1.6rem;
+
+                    &:not(:first-child) {
+                        padding-top: 1.6rem;
+                    }
+
+                    @include rwd(1200) {
+                        border-bottom: none;
+                        text-align: left;
+                        padding-bottom: 0;
+                    }
+                }
+            }
+
+            #nav-dropdown:checked {
+                &~.nav__dropdown {
+                    display: block;
+                }
+
+                &~label {
+                    .rotate-arrow {
+                        transform: rotate(180deg);
+                    }
+                }
+            }
+
+            .nav__btn {
+                position: relative;
+
+                @include btn($padding: .9rem 4.05rem, $fontSize: 1.6rem);
+
+                span {
+                    position: absolute;
+                    background: $primary-color;
+                }
+
+                .right,
+                .bottom {
+                    bottom: 0;
+                    right: 0;
+                }
+
+                .left,
+                .top {
+                    top: 0;
+                    left: 0;
+                }
+
+                .right,
+                .left {
+                    width: .1rem;
+                    height: 0;
+                }
+
+                .bottom,
+                .top {
+                    height: .1rem;
+                    width: 0;
+                }
+
+                &:hover {
+                    background: transparent;
+                    border-color: transparent;
+
+                    .top,
+                    .bottom {
+                        width: 100%;
+                    }
+
+                    .right,
+                    .left {
+                        height: 100%;
+                    }
+                }
+            }
+
+            .desktop {
+                display: inline-block;
+                position: relative;
+
+                img {
+                    cursor: pointer;
+                    width: 3.2rem;
+                    height: 3.2rem;
+                }
+
+                .dropdown {
+                    display: none;
+                    position: absolute;
+
+                    img {
+                        margin-top: 1rem;
+                    }
+                }
+
+                #flag-dropdown:checked~.dropdown {
+                    display: block;
+                }
+            }
+        }
+
+        .mobile {
+            position: relative;
+
+            @include rwd(1201, min) {
+                display: none;
+            }
+
+            @include rwd(1200) {
+                display: inline-block;
+                cursor: pointer;
+
+                .main-flag {
+                    img {
+                        cursor: pointer;
+                        width: 3.2rem;
+                        height: 3.2rem;
+                    }
+                }
+
+                .dropdown {
+                    display: none;
+                    position: absolute;
+
+                    img {
+                        margin-top: 1rem;
+                    }
+                }
+
+                #mobile-flag-dropdown:checked~.dropdown {
+                    display: block;
+                }
+            }
+        }
+
+
+        &__logo {
+            @include rwd(1200) {
+                width: 5rem;
+                height: 5rem;
+            }
+        }
+
+        &__link {
+            font-size: 1.5rem;
+            color: $secondary-color;
+            position: relative;
+            display: inline-block;
+
+            &::after {
+                content: '';
+                background-color: $secondary-color;
+                transform: scaleX(0);
+                transform-origin: left;
+                @include positioning($bottom: 0, $left: 0, $width: 100%, $height: .1rem);
+            }
+
+            &:hover:not(&--transform, &--dropdown)::after {
+                animation: underlineLink 0.6s forwards;
+            }
+
+            .phone-color {
+                color: $primary-color;
+            }
+        }
+
+        &__link--transform {
+            display: inline-block;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    .header__content {
+        @include flex(center, center, 0, row);
+        position: relative;
+        text-align: center;
+        color: $secondary-color;
+        height: 80vh;
+
+        .line {
+            position: absolute;
+            bottom: 0;
+            background-color: $primary-color;
+
+            @include rwd(1200) {
+                display: none;
+            }
+
+            &.left-vertical {
+                left: 0;
+                width: .2rem;
+                height: 0;
+                animation: grow-vertical 3s forwards;
+            }
+
+            &.bottom-left {
+                left: 0;
+                height: .2rem;
+                width: 0;
+                animation: grow-horizontal 3s forwards;
+            }
+
+            &.right-vertical {
+                right: 0;
+                width: .2rem;
+                height: 0;
+                animation: grow-vertical 3s forwards;
+            }
+
+            &.bottom-right {
+                right: 0;
+                height: .2rem;
+                width: 0;
+                animation: grow-horizontal 3s forwards;
+            }
+        }
+
+        .header__heading {
+            font-family: "Urbanist", sans-serif;
+            font-size: 11.2rem;
+            line-height: 8rem;
+            animation: headerHeading 2s forwards;
+            font-weight: 700;
+
+            @include rwd(568) {
+                font-size: 8rem;
+            }
+
+            span {
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke: .1rem $secondary-color;
+            }
+        }
+    }
+
+    .header__arrow {
+        width: 7rem;
+        height: 7rem;
+        @include positioning($left: 50%, $bottom: -2.5rem);
+
+        @include rwd(1200) {
+            bottom: 0;
+        }
+    }
+}

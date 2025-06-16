@@ -1,0 +1,40 @@
+@use "abstracts/index" as *;
+
+.message {
+	text-align: center;
+	color: $secondary-color;
+
+	&__header {
+		font-size: 4.2rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-family: "Urbanist", sans-serif;
+		line-height: 1.4;
+		letter-spacing: 0.2em;
+
+		@include rwd(768) {
+			font-size: 3rem;
+		}
+	}
+
+	&__line {
+		display: block;
+
+		&--top {
+			margin-bottom: 2rem;
+		}
+	}
+
+	&__accent {
+		font-family: "Pinyon Script", cursive;
+		text-transform: none;
+		font-style: italic;
+		color: $primary-color;
+		font-size: 1.8em;
+		margin: 0 0.4rem;
+
+		@include rwd(768) {
+			font-size: 1.5em;
+		}
+	}
+}

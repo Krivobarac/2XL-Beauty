@@ -1,0 +1,63 @@
+[
+    {
+        "serviceTab": "",
+        "services": [
+            {
+                "serviceTabTitle": "Ruke:",
+                "servicePrice": "800"
+            },
+            {
+                "serviceTabTitle": "Pola ruku",
+                "servicePrice": "600"
+            },
+            {
+                "serviceTabTitle": "Plitke prepone",
+                "servicePrice": "700"
+            },
+            {
+                "serviceTabTitle": "Duboke prepone",
+                "servicePrice": "1000"
+            },
+            {
+                "serviceTabTitle": "Brazilika",
+                "servicePrice": "1400"
+            },
+            {
+                "serviceTabTitle": "Cele noge",
+                "servicePrice": "2400"
+            },
+            {
+                "serviceTabTitle": "Pola nogu",
+                "servicePrice": "1000"
+            },
+            {
+                "serviceTabTitle": "Nausnice",
+                "servicePrice": "300"
+            },
+            {
+                "serviceTabTitle": "Pazuh",
+                "servicePrice": "500"
+            },
+            {
+                "serviceTabTitle": "Oblikovanje i korekcija obrva",
+                "servicePrice": "600"
+            },
+            {
+                "serviceTabTitle": "Farbanje obrva",
+                "servicePrice": "600"
+            },
+            {
+                "serviceTabTitle": "Noge + plitke prepone",
+                "servicePrice": "1700"
+            },
+            {
+                "serviceTabTitle": "Noge + duboke prepone",
+                "servicePrice": "1900"
+            },
+            {
+                "serviceTabTitle": "Noge + brazilika",
+                "servicePrice": "2400"
+            }
+        ]
+    }
+]

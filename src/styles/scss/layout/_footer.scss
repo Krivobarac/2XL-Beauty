@@ -1,0 +1,197 @@
+/* --------------------------------------------
+    Footer section
+-------------------------------------------- */
+@use 'abstracts/index' as *;
+
+.footer {
+    background-color: $primary-color;
+
+    &__wrapper {
+        @include flex(center, flex-start);
+        padding: 7rem 15%;
+        color: $secondary-color;
+        width: 100%;
+
+        @include rwd(1200) {
+            @include flex(center, center, 2rem, column) {
+                flex: 0 0 100%;
+            }
+
+            .hide {
+                display: none;
+            }
+
+            .footer__heading {
+                margin-bottom: 1.6rem;
+                text-align: center;
+            }
+        }
+
+        .footer__item {
+            flex: 1;
+            text-align: left;
+
+            .footer__heading {
+                font-family: inherit;
+                font-weight: 700;
+                margin: 0 0 3.2rem;
+                text-transform: uppercase;
+                font-size: 1.8rem;
+            }
+
+            .footer__list {
+                @include flex($align: flex-start, $flow: column nowrap);
+
+                @include rwd(1200) {
+                    text-align: center;
+                }
+            }
+
+            .footer__list__item {
+                margin: 0 0 1.6rem;
+                font-size: 1.5rem;
+                font-weight: 500;
+                display: inline-block;
+                cursor: pointer;
+
+                &:hover {
+                    transform: translateX(2.5rem);
+                }
+            }
+
+            &--first {
+                flex: 2;
+
+                .footer__logo {
+                    display: block;
+
+                    img {
+                        width: 9rem;
+                        height: 14rem;
+                    }
+                }
+
+                p {
+                    font-weight: 500;
+                    line-height: 2rem;
+                    text-transform: capitalize;
+                    margin: .5rem 0;
+
+                    @include rwd(1200) {
+                        display: none;
+                    }
+                }
+
+                .footer__btn {
+                    margin: 1.6rem 0;
+
+                    @include btn($fontSize: 1.4rem, $bg: $tertiary-color, $padding: 1rem 4.2rem) {
+
+                        @include rwd(1200) {
+                            display: none;
+                        }
+                    }
+                }
+
+                .footer__social {
+                    a {
+                        color: $tertiary-color;
+                        font-size: 1.6rem;
+                    }
+
+                    a {
+                        &:not(:last-child) {
+                            border-right: .2rem solid $tertiary-color;
+                            padding-right: 1.6rem;
+                        }
+
+                        &:not(:first-child) {
+                            padding-left: 1.6rem;
+                        }
+                    }
+
+                    @include rwd(1200) {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .mobile {
+            display: none;
+
+            @include rwd(1200) {
+                display: block;
+                text-align: center;
+
+                .mobile__text {
+                    font-weight: 500;
+                    line-height: 2rem;
+                    text-transform: capitalize;
+                    margin: .5rem 0;
+                }
+
+                .mobile__btn {
+                    margin: 1.6rem 0;
+                    @include btn($fontSize: 1.6rem, $bg: $tertiary-color, $padding: 1.1rem 3.85rem);
+                }
+
+                .mobile__social {
+                    a {
+                        color: $tertiary-color;
+                        font-size: 1.6rem;
+                    }
+
+                    a {
+                        &:not(:last-child) {
+                            border-right: .2rem solid $tertiary-color;
+                            padding-right: 1.6rem;
+                        }
+
+                        &:not(:first-child) {
+                            padding-left: 1.6rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &__copy {
+        @include flex(center, center, 0, column);
+
+        height: 7rem;
+        background-color: $tertiary-color;
+        color: $secondary-color;
+
+        p {
+            font-size: 1.2rem;
+            font-weight: 500;
+
+            .copy--img {
+                font-size: .8rem;
+                font-weight: 500;
+                vertical-align: middle;
+            }
+
+            a {
+                font-size: 1.2rem;
+                font-weight: 500;
+                color: $secondary-color;
+                text-decoration: underline;
+            }
+        }
+
+        div {
+            font-size: 1rem;
+            font-weight: 400;
+
+            a {
+                color: $secondary-color;
+                font-size: 1rem;
+                font-weight: 400;
+                text-decoration: underline;
+            }
+        }
+    }
+}

@@ -1,0 +1,225 @@
+[
+    {
+        "serviceTab": "matrix",
+        "services": [
+            {
+                "serviceTabTitle": "Feniranje",
+                "servicePrice": "od 990"
+            },
+            {
+                "serviceTabTitle": "Šišanje + feniranje",
+                "servicePrice": "od 2000"
+            },
+            {
+                "serviceTabTitle": "Presa i figaro za feniranje",
+                "servicePrice": "od 300"
+            },
+            {
+                "serviceTabTitle": "Pranje i sušenje",
+                "servicePrice": "600"
+            },
+            {
+                "serviceTabTitle": "Feniranje nadogradnje",
+                "servicePrice": "1700"
+            },
+            {
+                "serviceTabTitle": "Šišanje + feniranje nadogradnje",
+                "servicePrice": "2500"
+            },
+            {
+                "serviceTabTitle": "Pranje i sušenje nadogradnje",
+                "servicePrice": "1000"
+            },
+            {
+                "serviceTabTitle": "Šišanje šiški",
+                "servicePrice": "450"
+            },
+            {
+                "serviceTabTitle": "Šišanje sve dužine",
+                "servicePrice": "1800"
+            },
+            {
+                "serviceTabTitle": "Feniranje klipsi sa pranjem",
+                "servicePrice": "1100"
+            },
+            {
+                "serviceTabTitle": "Feniranje klipsi bez pranja",
+                "servicePrice": "900"
+            },
+            {
+                "serviceTabTitle": "",
+                "servicePrice": ""
+            },
+            {
+                "serviceTabTitle": "Farbanje cele dužine dve boje",
+                "servicePrice": "od 4000"
+            },
+            {
+                "serviceTabTitle": "Feniranje donetom bojom",
+                "servicePrice": "od 1300"
+            },
+            {
+                "serviceTabTitle": "Blajhanje bez bondera",
+                "servicePrice": "od 3000"
+            },
+            {
+                "serviceTabTitle": "Preliv",
+                "servicePrice": "od 2000"
+            }
+        ]
+    },
+    {
+        "serviceTab": "redken",
+        "services": [
+            {
+                "serviceTabTitle": "Feniranje",
+                "servicePrice": "od 1300"
+            },
+            {
+                "serviceTabTitle": "Šišanje + feniranje",
+                "servicePrice": "2400"
+            },
+            {
+                "serviceTabTitle": "Pranje i sušenje",
+                "servicePrice": "800"
+            },
+            {
+                "serviceTabTitle": "Feniranje nadogradnje",
+                "servicePrice": "2300"
+            },
+            {
+                "serviceTabTitle": "Šišanje + feniranje nadogradnje",
+                "servicePrice": "3000"
+            },
+            {
+                "serviceTabTitle": "Pranje i sušenje nadogradnje",
+                "servicePrice": "1400"
+            },
+            {
+                "serviceTabTitle": "",
+                "servicePrice": ""
+            },
+            {
+                "serviceTabTitle": "Šišanje šiški",
+                "servicePrice": "450"
+            },
+            {
+                "serviceTabTitle": "Šišanje sve dužine",
+                "servicePrice": "1800"
+            },
+            {
+                "serviceTabTitle": "Feniranje klipsi sa pranjem",
+                "servicePrice": "1100"
+            },
+            {
+                "serviceTabTitle": "Feniranje klipsi bez pranja",
+                "servicePrice": "900"
+            },
+            {
+                "serviceTabTitle": "",
+                "servicePrice": ""
+            },
+            {
+                "serviceTabTitle": "Farbanje cele dužine dve boje",
+                "servicePrice": "od 5000"
+            },
+            {
+                "serviceTabTitle": "Pramenovi na foliju dve boje",
+                "servicePrice": "od 6500"
+            },
+            {
+                "serviceTabTitle": "Blajhanje sa bonderom",
+                "servicePrice": "od 3600"
+            },
+            {
+                "serviceTabTitle": "Airtouch",
+                "servicePrice": "od 14000"
+            }
+        ]
+    },
+    {
+        "serviceTab": "tretmani",
+        "services": [
+            {
+                "serviceTabTitle": "All Soft šampon",
+                "servicePrice": "od 700"
+            },
+            {
+                "serviceTabTitle": "All Soft regenerator",
+                "servicePrice": "od 700"
+            },
+            {
+                "serviceTabTitle": "",
+                "servicePrice": ""
+            },
+            {
+                "serviceTabTitle": "All Soft Leave-in tretman",
+                "servicePrice": "od 1600"
+            },
+            {
+                "serviceTabTitle": "",
+                "servicePrice": ""
+            },
+            {
+                "serviceTabTitle": "EXTREME šampon",
+                "servicePrice": "od 700"
+            },
+            {
+                "serviceTabTitle": "EXTREME regenerator",
+                "servicePrice": "od 700"
+            },
+            {
+                "serviceTabTitle": "",
+                "servicePrice": ""
+            },
+            {
+                "serviceTabTitle": "EXTREME strength Builder Plus maska",
+                "servicePrice": "od 1600"
+            },
+            {
+                "serviceTabTitle": "EXTREME Anti-Snap tretman",
+                "servicePrice": "od 1600"
+            },
+            {
+                "serviceTabTitle": "",
+                "servicePrice": ""
+            },
+            {
+                "serviceTabTitle": "REDKEN ABC šampon",
+                "servicePrice": "od 700"
+            },
+            {
+                "serviceTabTitle": "REDKEN ABC regenerator",
+                "servicePrice": "od 700"
+            },
+            {
+                "serviceTabTitle": "",
+                "servicePrice": ""
+            },
+            {
+                "serviceTabTitle": "REDKEN ABC protein 10*10",
+                "servicePrice": "od 2500"
+            },
+            {
+                "serviceTabTitle": "REDKEN ABC maska",
+                "servicePrice": "od 2500"
+            },
+            {
+                "serviceTabTitle": "REDKEN ABC moisture",
+                "servicePrice": "od 2500"
+            },
+            {
+                "serviceTabTitle": "",
+                "servicePrice": ""
+            },
+            {
+                "serviceTabTitle": "FRIZZ DISMISS Šampon",
+                "servicePrice": "od 700"
+            },
+            {
+                "serviceTabTitle": "FRIZZ DISMISS Regenerator",
+                "servicePrice": "od 700"
+            }
+        ]
+    }
+]

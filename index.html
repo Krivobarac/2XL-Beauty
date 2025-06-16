@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2XL Beauty</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Google fonts - Montserrat - Bentham - Urbanist -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bentham&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pinyon+Script&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="src/assets/img/favicon.svg" type="image/svg+xml">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="src/styles/css/style.css">
+    <script src="https://kit.fontawesome.com/58c6294e39.js" crossorigin="anonymous"></script>
+    <script src="src/scripts/services-component.js"></script>
+</head>
+
+<body>
+    <!-- Header section starts -->
+    <header class="header">
+        <div class="backgroundImg"></div>
+
+        <!-- Nav section starts -->
+        <nav class="nav">
+            <div class="hamburger">
+                <div class="hamburger__line"></div>
+                <div class="hamburger__line hamburger__line--2"></div>
+                <div class="hamburger__line"></div>
+            </div>
+            <ul class="nav__list">
+                <li class="nav__list__item nav__list__item--dropdown">
+                    <input type="checkbox" id="nav-dropdown" hidden>
+                    <label for="nav-dropdown">
+                        <span> Usluge </span>
+                        <i class="fa-solid fa-angle-down rotate-arrow"></i>
+                    </label>
+                    <div class="nav__dropdown">
+                        <a href="#hairdresser">Frizura</a>
+                        <a href="#massage">Masaža</a>
+                        <a href="#visage">Visage pro</a>
+                        <a href="#manicure">Manikir i Pedikir</a>
+                        <a href="#depilation">Depilacija</a>
+                    </div>
+                </li>
+                <li class="nav__list__item">
+                    <a href="#partners" class="nav__link">
+                        Partneri i proizvodi
+                    </a>
+                </li>
+                <li class="nav__list__item">
+                    <a href="#story" class="nav__link">
+                        Naša priča
+                    </a>
+                </li>
+                <li class="nav__list__item">
+                    <a href="#cv" class="nav__link">
+                        Karijera
+                    </a>
+                </li>
+            </ul>
+            <a href="index.html" class="nav__logo">
+                <img src="src/assets/img/pink logo.png" alt="header logo image" width="70" width="70">
+            </a>
+            <ul class="nav__list hidden">
+                <li class="nav__list__item">
+                    <a href="#" class="nav__link">
+                        Lokacija
+                    </a>
+                </li>
+                <li class="nav__list__item">
+                    <a href="tel:+38162111111" class="nav__link nav__link--transform">
+                        <i class="fa-solid fa-phone phone-color"></i>
+                        +381 65 53 0 53 00
+                    </a>
+                </li>
+                <li class="nav__list">
+                    <a href="#" class="nav__btn">
+                        Zakaži
+                        <span class="top"></span>
+                        <span class="right"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                    </a>
+                </li>
+                <li>
+                    <div class="flag-container desktop">
+                        <input type="checkbox" id="flag-dropdown" hidden>
+                        <label for="flag-dropdown" class="main-flag">
+                            <img src="src/assets/img/srb.png" alt="srb">
+                        </label>
+                        <div class="dropdown">
+                            <div class="dropdown-flag">
+                                <img src="src/assets/img/eng.png" alt="eng">
+                            </div>
+                            <div class="dropdown-flag">
+                                <img src="src/assets/img/rus.png" alt="rus">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="flag-container mobile">
+                <input type="checkbox" id="mobile-flag-dropdown" hidden>
+                <label for="mobile-flag-dropdown" class="main-flag">
+                    <img src="src/assets/img/srb.png" alt="srb">
+                </label>
+                <div class="dropdown visible">
+                    <div class="dropdown-flag">
+                        <img src="src/assets/img/eng.png" alt="eng">
+                    </div>
+                    <div class="dropdown-flag">
+                        <img src="src/assets/img/rus.png" alt="rus">
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Nav section ends -->
+
+        <div class="header__content">
+            <div class="line left-vertical"></div>
+            <div class="line bottom-left"></div>
+            <div class="line right-vertical"></div>
+            <div class="line bottom-right"></div>
+            <h1 class="header__heading">
+                2XL
+                <br>
+                <span> Beauty </span>
+            </h1>
+            <a href="#services" class="header__arrow">
+                <img src="src/assets/img/header-arrow.png" alt="header arrow image" class="header__img--arrow"
+                    width="70" height="70">
+            </a>
+        </div>
+    </header>
+    <!-- Header section ends -->
+
+    <!-- Features section starts -->
+    <section class="features container">
+        <img src="src/assets/img/feature1.png" alt="feature one image" class="features__img">
+        <img src="src/assets/img/feature2.png" alt="feature one image" class="features__img">
+        <img src="src/assets/img/feature3.png" alt="feature one image" class="features__img">
+        <img src="src/assets/img/feature4.png" alt="feature one image" class="features__img">
+    </section>
+    <!-- Features section ends -->
+
+    <!-- Services section starts -->
+    <section class="services" id="services">
+        <service-component id="hairdresser" serviceTitle="Ženski frizer" serviceImage="src/assets/img/service1.png"
+            serviceDataSrc='src/assets/data/hairdresser.json'></service-component>
+        <service-component id="massage" serviceTitle="masaže" serviceImage="src/assets/img/service2.png"
+            serviceDataSrc='src/assets/data/massage.json'></service-component>
+        <service-component id="visage" serviceTitle="visage pro" serviceImage="src/assets/img/service3.png"
+            serviceDataSrc='src/assets/data/visage.json'></service-component>
+        <div class="services__baner">
+            <div class="services__baner__title__box">
+                <h2>your beauty is our priority</h2>
+            </div>
+            <img src="src/assets/img/manikir.jpg" alt="Manicured arms">
+            <img src="src/assets/img/Depilacija.jpg" alt="Legspilation">
+        </div>
+        <div class="services__additional">
+            <a href="src/pricing.html"></a>
+            <service-component id="manicure" serviceTitle="manikir i pedikir"
+                serviceDataSrc='src/assets/data/manicure-pedicure.json'></service-component>
+            <service-component id="depilation" serviceTitle="depilacija"
+                serviceDataSrc='src/assets/data/depilation.json'></service-component>
+        </div>
+    </section>
+    <!-- Services section ends -->
+
+    <!-- Location section starts -->
+    <section class="location">
+        <div class="location__item location__item--text">
+            <h3 class="location__header">Lokacija</h3>
+            <ul class="location__list">
+                <li class="location__list__item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <a href="#" class="location__link">
+                        Vrtlarska 7a, Zemun
+                    </a>
+                </li>
+                <li class="location__list__item">
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:+381655305300" class="location__link">
+                        +381 65 53 0 53 00
+                    </a>
+                </li>
+                <li class="location__list__item">
+                    <i class="fa-solid fa-clock"></i>
+                    <p>
+                        PON - NED 8:00 - 21:00
+                    </p>
+                </li>
+                <li class="location__list__item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:termini@2xlbeauty.com" class="location__link">
+                        termini@2xlbeauty.com
+                    </a>
+                </li>
+            </ul>
+            <ul class="location__list">
+                <li class="location__list__item">
+                    <i class="fa-solid fa-square-parking"></i>
+                    <p style="text-transform: uppercase">
+                        besplatan parking ispred lokala
+                    </p>
+                </li>
+                <li class="location__list__item">
+                    <p style="font-weight: 600;">
+                        *Royalty program
+                    </p>
+                </li>
+                <li class="location__list__item">
+                    <p>
+                        Kafa, čokolada i sok za ugođaj
+                    </p>
+                </li>
+            </ul>
+            <div class="location__social">
+                <a href="https://www.instagram.com/2xl.beauty/" class="fa-brands fa-instagram"></a>
+                <a href="https://www.facebook.com/share/dJ3d8Cx1ikEXQhwu/?mibextid=LQQJ4d"
+                    class="fa-brands fa-facebook"></a>
+                <a href="https://www.tiktok.com/@2xl.beauty?_t=8pgSMh1qmiD&_r=1" class="fa-brands fa-tiktok"></a>
+            </div>
+        </div>
+        <div class="location__item location__item--img">
+            <div class="location__img-wrapper">
+                <img src="src/assets/img/lokacija.jpg" class="location__img" />
+            </div>
+        </div>
+    </section>
+    <!-- Location section end -->
+
+    <!-- Story section starts -->
+    <section class="story container" id="story">
+        <div class="story__wrapper">
+            <h3 class="story__heading">
+                Naša priča
+            </h3>
+            <img src="src/assets/img/story.svg" />
+            <p class="story__text">
+                Od malih nogu kreneš da ideš kod frizera, sediš u nekoj kul stolici, a
+                oko tebe svi gledaju da te zabavljaju kako bi frizer mogao da te
+                ošiša, nije ti bitno ko te šiša i kako. Dok kada odrasteš, želiš što
+                bolju frizuru, imaš jednog frizera i ne menjaš ga, naravno ako je
+                dobar. Želiš što kvalitetnije proizvode i preparate, gledaš kakvo je
+                mesto i kakvi su ljudi gde ideš.
+            </p>
+            <p class="story__text">
+                Suprug i ja smo došli na ideju da otvorimo salon lepote, jer znamo
+                koliko je važno da uvek imaš svoje mesto gde da odeš, gde si
+                prioritet, gde su ljudi oko tebe prijatni. Želimo da vam napravimo
+                ugođaj kakav nema nigde, da vam pružimo najbolje usluge frizera,
+                masaža, manikira i pedikira i još mnogo toga.
+            </p>
+            <p class="story__text">
+                U našem salonu ćeš moći u jednom terminu da se doteraš za bilo koju
+                proslavu, događaj. Isto tako, ukoliko želiš samo da se opustiš i
+                odmoriš od napornog radnog dana, imamo razne masaže koje će ti u tome
+                pomoći!
+            </p>
+            <div class="story__border top"></div>
+            <div class="story__border left"></div>
+            <div class="story__border bottom"></div>
+            <div class="story__border right"></div>
+        </div>
+    </section>
+    <!-- Story section ends -->
+
+    <!-- CV section starts -->
+    <section id="cv">
+        <div class="cv__wrapper container">
+            <div class="cv__content">
+                <h3 class="cv__header">
+                    Želiš da budeš deo naše priče?
+                </h3>
+                <p class="cv__text">
+                    Ako si strastven, inovativan i spreman za nove izazove, pošalji nam
+                    svoj CV i otvori vrata svetu neograničenih mogućnosti. Zajedno
+                    možemo pisati sledeće poglavlje!
+                </p>
+            </div>
+            <a href="mailto:termini@2xlbeauty.com" class="cv__btn">pošalji cv</a>
+        </div>
+    </section>
+    <!-- CV section ends -->
+
+    <!-- Message section starts -->
+    <section class="message container">
+        <h3 class="message__header">
+            <span class="message__line message__line--top">prepusti se</span>
+            <span class="message__line message__line--bottom">
+                visokom <span class="message__accent">kvalitetu</span> naših usluga
+            </span>
+        </h3>
+    </section>
+    <!-- Message section ends -->
+
+    <!-- Partners section starts -->
+    <section class="partners" id="partners">
+        <div class="partners__item partners__item--img">
+            <img src="src/assets/img/partners.jpg" />
+        </div>
+        <div class="partners__item">
+            <h3 class="partners__header">
+                partneri
+            </h3>
+            <p class="partners__text">
+                Sa našim partnerima nudimo ti najkvalitetnije proizvode i usluge
+            </p>
+            <div class="partners__gallery">
+                <div class="partners__gallery__img">
+                    <img src="src/assets/img/redkenlogo.png" class="redken" />
+                </div>
+                <div class="partners__gallery__img">
+                    <img src="src/assets/img/matrixlogo.png" class="matrix" />
+                </div>
+                <div class="partners__gallery__img partners__gallery__img--zem">
+                    <img src="src/assets/img/zem logo.png" class="zem" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Partners section ends -->
+
+    <!-- Schedule section starts -->
+    <section class="schedule">
+        <div class="schedule__wrapper container">
+            <p>
+                Ovde možeš zakazati svoj termin kod nas
+            </p>
+            <a href="#" class="schedule__btn"
+                id="appointment__Btn_CTA">Zakaži</a>
+        </div>
+    </section>
+    <!-- Schedule section ends -->
+
+    <!-- Footer section starts -->
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__item footer__item--first">
+                <a href="index.html" class="footer__logo">
+                    <img src="src/assets/img/logo.png" alt="website logo" class="footer__img">
+                </a>
+                <p class="footer__text">your beauty is our priority</p>
+                <a href="#" class="footer__btn"> Zakaži</a>
+                <div class="footer__social">
+                    <a href="mailto:2xlbeautyofficial@gmail.com" class="fa-solid fa-envelope"></a>
+                    <a href="https://www.instagram.com/2xl.beauty/" class="fa-brands fa-instagram"></a>
+                    <a href="https://www.facebook.com/share/dJ3d8Cx1ikEXQhwu/?mibextid=LQQJ4d"
+                        class="fa-brands fa-facebook"></a>
+                    <a href="https://www.tiktok.com/@2xl.beauty?_t=8pgSMh1qmiD&_r=1" class="fa-brands fa-tiktok"></a>
+                </div>
+            </div>
+            <div class="footer__item">
+                <h3 class="footer__heading">usluge</h3>
+                <ul class="footer__list">
+                    <li class="footer__list__item"> <a class="footer__link"> Ženski frizer </a> </li>
+                    <li class="footer__list__item"> <a class="footer__link"> Masaže </a> </li>
+                    <li class="footer__list__item"> <a class="footer__link"> Manikir i pedikir </a> </li>
+                    <li class="footer__list__item"> <a class="footer__link"> Depilacija </a> </li>
+                    <li class="footer__list__item"> <a class="footer__link"> Visage pro </a> </li>
+                </ul>
+            </div>
+            <div class="footer__item hide">
+                <h3 class="footer__heading">kontakt</h3>
+                <ul class="footer__list">
+                    <li class="footer__list__item"> <a class="footer__link"> Vrtlarska 7a, Zemun </a></li>
+                    <li class="footer__list__item"> <a class="footer__link"> +381 65 53 0 53 00 </a></li>
+                    <li class="footer__list__item"> <a class="footer__link"> 2xlbeautyofficial@gmail.com </a></li>
+                </ul>
+            </div>
+            <div class="footer__item hide">
+                <h3 class="footer__heading">radno vreme</h3>
+                <p class="footer__time">Pon - ned 08:00 - 21:00</p>
+            </div>
+            <div class="footer__item mobile">
+                <p class="mobile__text">your beauty is our priority</p>
+                <a href="#" class="mobile__btn"> Zakaži</a>
+                <div class="mobile__social">
+                    <a href="mailto:2xlbeautyofficial@gmail.com" class="fa-solid fa-envelope"></a>
+                    <a href="https://www.instagram.com/2xl.beauty/" class="fa-brands fa-instagram"></a>
+                    <a href="https://www.facebook.com/share/dJ3d8Cx1ikEXQhwu/?mibextid=LQQJ4d"
+                        class="fa-brands fa-facebook"></a>
+                    <a href="https://www.tiktok.com/@2xl.beauty?_t=8pgSMh1qmiD&_r=1" class="fa-brands fa-tiktok"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copy">
+            <p>
+                <i class="fa-regular fa-copyright copy--img"></i> <span> 2025 </span> 2XL Beauty | <a href="#">Politika
+                    privatnosti</a>
+            </p>
+            <div>
+                Designed by <a href="https://dinadoesit.com/"> DinaDoesIt.com</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer section ends -->
+</body>
+
+</html>

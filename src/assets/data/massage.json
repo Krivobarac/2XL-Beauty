@@ -1,0 +1,177 @@
+[
+    {
+        "serviceTab": "regularne",
+        "services": [
+            {
+                "serviceTabTitle": "Relax masaža (45 min)",
+                "servicePrice": "2500"
+            },
+            {
+                "serviceTabTitle": "Relax masaža (60 min)",
+                "servicePrice": "3000"
+            },
+            {
+                "serviceTabTitle": "Relax masaža (90 min)",
+                "servicePrice": "3500"
+            },
+            {
+                "serviceTabTitle": "Relax masaža (120 min)",
+                "servicePrice": "5500"
+            },
+            {
+                "serviceTabTitle": "",
+                "servicePrice": ""
+            },
+            {
+                "serviceTabTitle": "Terapeutska masaža (30 min)",
+                "servicePrice": "2500"
+            },
+            {
+                "serviceTabTitle": "Terapeutska masaža (45 min)",
+                "servicePrice": "3000"
+            },
+            {
+                "serviceTabTitle": "Terapeutska masaža (60 min)",
+                "servicePrice": "3500"
+            },
+            {
+                "serviceTabTitle": "",
+                "servicePrice": ""
+            },
+            {
+                "serviceTabTitle": "Sportska masaža (30 min)",
+                "servicePrice": "3000"
+            },
+            {
+                "serviceTabTitle": "Sportska masaža (45 min)",
+                "servicePrice": "3500"
+            },
+            {
+                "serviceTabTitle": "Sportska masaža (60 min)",
+                "servicePrice": "4000"
+            },
+            {
+                "serviceTabTitle": "",
+                "servicePrice": ""
+            },
+            {
+                "serviceTabTitle": "Antistres masaža sve (60 min)",
+                "servicePrice": "3200"
+            },
+            {
+                "serviceTabTitle": "",
+                "servicePrice": ""
+            },
+            {
+                "serviceTabTitle": "Theragun 15 min",
+                "servicePrice": "500"
+            },
+            {
+                "serviceTabTitle": "Theragun 30 min",
+                "servicePrice": "1000"
+            },
+            {
+                "serviceTabTitle": "Theragun 45 min",
+                "servicePrice": "1500"
+            }
+        ]
+    },
+    {
+        "serviceTab": "anticelulit",
+        "services": [
+            {
+                "serviceTabTitle": "Limfna drenaža",
+                "servicePrice": "od 2800"
+            },
+            {
+                "serviceTabTitle": "",
+                "servicePrice": ""
+            },
+            {
+                "serviceTabTitle": "Anticelulit masaža",
+                "servicePrice": "od 1900"
+            },
+            {
+                "serviceTabTitle": "Anticelulit - 10 tretmana",
+                "servicePrice": "od 15000"
+            },
+            {
+                "serviceTabTitle": "",
+                "servicePrice": ""
+            },
+            {
+                "serviceTabTitle": "Maderoterapija",
+                "servicePrice": "od 2000"
+            },
+            {
+                "serviceTabTitle": "Maderoterapija - 10 tretmana",
+                "servicePrice": "od 19000"
+            },
+            {
+                "serviceTabTitle": "",
+                "servicePrice": ""
+            },
+            {
+                "serviceTabTitle": "Brazilska madero",
+                "servicePrice": "od 2300"
+            },
+            {
+                "serviceTabTitle": "Brazilska madero - 10 tretmana",
+                "servicePrice": "od 21000"
+            },
+            {
+                "serviceTabTitle": "",
+                "servicePrice": ""
+            },
+            {
+                "serviceTabTitle": "Madero + brazilska (30 min)",
+                "servicePrice": "od 2400"
+            },
+            {
+                "serviceTabTitle": "Madero + brazilska (45 min)",
+                "servicePrice": "od 2800"
+            },
+            {
+                "serviceTabTitle": "",
+                "servicePrice": ""
+            },
+            {
+                "serviceTabTitle": "Paket kombinacija - 10 tretmana (30 min)",
+                "servicePrice": "od 23000"
+            },
+            {
+                "serviceTabTitle": "Paket kombinacija - 10 tretmana (45 min)",
+                "servicePrice": "od 26000"
+            }
+        ]
+    },
+    {
+        "serviceTab": "mršavljenje",
+        "services": [
+            {
+                "serviceTabTitle": "Vacuslim pakovanje (30 min)",
+                "servicePrice": "2000"
+            },
+            {
+                "serviceTabTitle": "Vacuslim + anticelulit (60 min)",
+                "servicePrice": "2400"
+            },
+            {
+                "serviceTabTitle": "Vacuslim + madero (60 min)",
+                "servicePrice": "2600"
+            },
+            {
+                "serviceTabTitle": "Vacuslim - 10 tretmana (30 min)",
+                "servicePrice": "16000"
+            },
+            {
+                "serviceTabTitle": "Vacuslim + anticelulit 10 tretmana (60 min)",
+                "servicePrice": "20000"
+            },
+            {
+                "serviceTabTitle": "Vacuslim + madero 10 tretmana (60 min)",
+                "servicePrice": "24000"
+            }
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+{
+  "name": "2xl-beauty",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass src/styles/scss/style.scss src/styles/css/style.css --load-path=src/styles/scss",
+    "sass:watch": "sass --watch src/styles/scss/style.scss:src/styles/css/style.css --load-path=src/styles/scss"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.87.0"
+  }
+}

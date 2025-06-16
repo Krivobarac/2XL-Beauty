@@ -1,0 +1,165 @@
+[
+    {
+        "serviceTab": "promo",
+        "services": [
+            {
+                "serviceTabTitle": "Ultrazvučna kavitacija:",
+                "servicePrice": ""
+            },
+            {
+                "serviceTabTitle": "Stomak",
+                "servicePrice": "2700",
+                "indent": true
+            },
+            {
+                "serviceTabTitle": "Butine",
+                "servicePrice": "2700",
+                "indent": true
+            },
+            {
+                "serviceTabTitle": "Ruke",
+                "servicePrice": "2300",
+                "indent": true
+            },
+            {
+                "serviceTabTitle": "Listovi",
+                "servicePrice": "2300",
+                "indent": true
+            },
+            {
+                "serviceTabTitle": "",
+                "servicePrice": ""
+            },
+            {
+                "serviceTabTitle": "Ultrazvučna kavitacija (paket 10 tretmana):",
+                "servicePrice": ""
+            },
+            {
+                "serviceTabTitle": "Stomak",
+                "servicePrice": "2700",
+                "indent": true
+            },
+            {
+                "serviceTabTitle": "Butine",
+                "servicePrice": "2700",
+                "indent": true
+            },
+            {
+                "serviceTabTitle": "Ruke",
+                "servicePrice": "2300",
+                "indent": true
+            },
+            {
+                "serviceTabTitle": "Listovi",
+                "servicePrice": "2300",
+                "indent": true
+            },
+            {
+                "serviceTabTitle": "",
+                "servicePrice": ""
+            },
+            {
+                "serviceTabTitle": "Kombinovani paket - 10 tretmana",
+                "servicePrice": "23000"
+            },
+            {
+                "serviceTabTitle": "Radiotalasni lifting - 1 regija",
+                "servicePrice": "3000"
+            },
+            {
+                "serviceTabTitle": "Radiotalasni lifting paket 5 + 2",
+                "servicePrice": "15000"
+            },
+            {
+                "serviceTabTitle": "Radiotalasni lifting paket 10 + 2",
+                "servicePrice": "28000"
+            },
+            {
+                "serviceTabTitle": "Kombinacija kavitacija + vakum + RTV zatezanje",
+                "servicePrice": "6000"
+            },
+            {
+                "serviceTabTitle": "Paket 5 + 2 GRATIS",
+                "servicePrice": "30000"
+            }
+        ]
+    },
+    {
+        "serviceTab": "paketi",
+        "services": [
+            {
+                "serviceTabTitle": "Ultrazvučna kavitacija + Vacumslim",
+                "servicePrice": "od 3500"
+            },
+            {
+                "serviceTabTitle": "Ultrazvučna kavitacija + Vacumslim 10 + 2 GRATIS",
+                "servicePrice": "od 32000"
+            },
+            {
+                "serviceTabTitle": "Ultrazvučna kavitacija + Vacumslim + AC",
+                "servicePrice": "od 4500"
+            },
+            {
+                "serviceTabTitle": "Ultrazvučna kavitacija + Vacumslim + AC10 + 2 GRATIS",
+                "servicePrice": "od 40000"
+            },
+            {
+                "serviceTabTitle": "Ultrazvučna kavitacija + Vacumslim + Madero",
+                "servicePrice": "od 5000"
+            },
+            {
+                "serviceTabTitle": "Ultrazvučna kavitacija + Vacumslim + Madero10 + 2 GRATIS",
+                "servicePrice": "od 45000"
+            },
+            {
+                "serviceTabTitle": "",
+                "servicePrice": ""
+            },
+            {
+                "serviceTabTitle": "Radiotalasni lifting + maderoterapija",
+                "servicePrice": "od 5000"
+            },
+            {
+                "serviceTabTitle": "Radiotalasni lifting + maderoterapija 10 + 2 (30 min)",
+                "servicePrice": "od 40000"
+            },
+            {
+                "serviceTabTitle": "Radiotalasni lifting + maderoterapija",
+                "servicePrice": "od 30000"
+            }
+        ]
+    },
+    {
+        "serviceTab": "lice",
+        "services": [
+            {
+                "serviceTabTitle": "Dijamantska mikrodermoabrazija",
+                "servicePrice": "2000"
+            },
+            {
+                "serviceTabTitle": "Holivudski tretmani kiseonikom",
+                "servicePrice": "3000"
+            },
+            {
+                "serviceTabTitle": "Radiotalasni lifting",
+                "servicePrice": "2600"
+            },
+            {
+                "serviceTabTitle": "Ultrazvuk",
+                "servicePrice": "2000"
+            },
+            {
+                "serviceTabTitle": "Dijamantska mikrodermoabrazija + radiotalasi",
+                "servicePrice": "4500"
+            },
+            {
+                "serviceTabTitle": "Remodeling limfna drenaža",
+                "servicePrice": "1500"
+            },
+            {
+                "serviceTabTitle": "Remodeling + radiotalasni lifting",
+                "servicePrice": "3500"
+            }
+        ]
+    }
+]

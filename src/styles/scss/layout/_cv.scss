@@ -1,0 +1,65 @@
+@use "abstracts/index" as *;
+
+.cv__wrapper {
+	padding: 5rem;
+	background-color: $primary-color;
+
+	@include flex($justify: space-between, $gap: 1rem, $flow: row wrap) {
+		@include rwd(1300) {
+			justify-content: center;
+			text-align: center;
+		}
+	}
+
+	@include rwd(568) {
+		padding: 3.2rem;
+	}
+
+	.cv__content {
+		flex: 0 0 70%;
+
+		@include rwd(1300) {
+			flex: 0 0 100%;
+		}
+
+		.cv__header {
+			font-size: 4rem;
+			line-height: 6.4rem;
+			font-weight: 500;
+			color: $secondary-color;
+			margin-bottom: 1.6rem;
+			font-family: "Montserrat", sans-serif;
+			text-shadow: 0.2rem 0.2rem 2rem $tertiary-color;
+
+			@include rwd(1405) {
+				line-height: 3.9rem;
+				font-size: 3rem;
+			}
+
+			@include rwd(1200) {
+				font-size: 2.8rem;
+			}
+		}
+
+		.cv__text {
+			font-weight: 500;
+			line-height: 2.5rem;
+			color: $secondary-color;
+
+			@include rwd(1200) {
+				text-align: center;
+			}
+		}
+	}
+
+	.cv__btn {
+		line-height: 2.7rem;
+		text-transform: uppercase;
+		@include btn($bg: $tertiary-color, $fontSize: 2.2rem, $padding: 1rem 3.2rem, $mobilePadding: 1rem 2rem);
+
+		@include rwd(1200) {
+			margin-top: 1rem;
+			font-size: 1.7rem;
+		}
+	}
+}

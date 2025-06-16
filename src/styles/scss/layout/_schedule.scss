@@ -1,0 +1,44 @@
+@use "abstracts/index" as *;
+
+.schedule {
+    .container {
+        width: 75%;
+    }
+
+    &__wrapper {
+        background-color: $primary-color;
+        padding: 5rem;
+
+        @include flex($justify: space-between) {
+            @include rwd(1350) {
+                flex-direction: column;
+                text-align: center;
+                gap: 1.6rem;
+            }
+        };
+
+        p {
+            font-weight: 500;
+            font-size: 2.9rem;
+            line-height: 4rem;
+            letter-spacing: 2%;
+            color: $secondary-color;
+            text-transform: uppercase;
+            text-shadow: .2rem .2rem 2rem $tertiary-color;
+
+            @include rwd(1023) {
+                font-size: 2.6rem;
+            }
+
+           @include rwd(768) {
+                font-size: 1.4rem;
+                line-height: 2.6rem;
+                margin-bottom: 1.6rem;
+            }
+        }
+
+        .schedule__btn {
+            @include btn($bg: $tertiary-color, $fontSize: 2rem, $fontWeight: 500, $color: $secondary-color, $padding: 1rem 4.2rem, $mobilePadding:  1.1rem 5.1rem);
+        }
+    }
+}

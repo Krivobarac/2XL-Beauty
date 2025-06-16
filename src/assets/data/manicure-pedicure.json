@@ -1,0 +1,120 @@
+[
+    {
+        "serviceTab": "Manikir",
+        "services": [
+            {
+                "serviceTabTitle": "Lakiranje:",
+                "servicePrice": "700"
+            },
+            {
+                "serviceTabTitle": "Lak frenč",
+                "servicePrice": "900"
+            },
+            {
+                "serviceTabTitle": "Manikir",
+                "servicePrice": "1300"
+            },
+            {
+                "serviceTabTitle": "Manikir ruski",
+                "servicePrice": "1700"
+            },
+            {
+                "serviceTabTitle": "Skidanje gela laka ruke",
+                "servicePrice": "900"
+            },
+            {
+                "serviceTabTitle": "Skidanje gela ruke",
+                "servicePrice": "1100"
+            },
+            {
+                "serviceTabTitle": "Gel lak",
+                "servicePrice": "2000"
+            },
+            {
+                "serviceTabTitle": "Gel lak frenč",
+                "servicePrice": "2700"
+            },
+            {
+                "serviceTabTitle": "Manikir + gel lak",
+                "servicePrice": "2500"
+            },
+            {
+                "serviceTabTitle": "Manikir + gel lak frenč",
+                "servicePrice": "2900"
+            },
+            {
+                "serviceTabTitle": "Manikir ruski + gel lak",
+                "servicePrice": "2800"
+            },
+            {
+                "serviceTabTitle": "Manikir ruski + gel lak frenč",
+                "servicePrice": "3200"
+            },
+            {
+                "serviceTabTitle": "Rubber baza + manikir",
+                "servicePrice": "2300"
+            },
+            {
+                "serviceTabTitle": "Rubber baza sa bojom + manikir",
+                "servicePrice": "2600"
+            },
+            {
+                "serviceTabTitle": "Rubber baza sa frenčom + manikir",
+                "servicePrice": "2900"
+            }
+        ]
+    },
+    {
+        "serviceTab": "pedikir",
+        "services": [
+            {
+                "serviceTabTitle": "Pedikir estetski",
+                "servicePrice": "2300"
+            },
+            {
+                "serviceTabTitle": "Pedikir colagen spa",
+                "servicePrice": "3000"
+            },
+            {
+                "serviceTabTitle": "Pedikir + gel lak",
+                "servicePrice": "3500"
+            },
+            {
+                "serviceTabTitle": "Pedikir + gel lak frenč",
+                "servicePrice": "3900"
+            },
+            {
+                "serviceTabTitle": "Gel lak noge",
+                "servicePrice": "1800"
+            },
+            {
+                "serviceTabTitle": "Gel lak frenč noge",
+                "servicePrice": "2100"
+            },
+            {
+                "serviceTabTitle": "Suvi pedikir",
+                "servicePrice": "1500"
+            },
+            {
+                "serviceTabTitle": "Pedikir + skidanje gel laka",
+                "servicePrice": "2700"
+            },
+            {
+                "serviceTabTitle": "Skidanje gel laka noge",
+                "servicePrice": "800"
+            },
+            {
+                "serviceTabTitle": "Skidanje gela noge",
+                "servicePrice": "950"
+            },
+            {
+                "serviceTabTitle": "Medicinski pedikir",
+                "servicePrice": "3500"
+            },
+            {
+                "serviceTabTitle": "Polu-medicinski pedikir",
+                "servicePrice": "2600"
+            }
+        ]
+    }
+]

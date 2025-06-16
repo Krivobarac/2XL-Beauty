@@ -1,0 +1,114 @@
+@use "abstracts/index" as *;
+
+.story {
+    text-align: center;
+    color: $secondary-color;
+
+    &.container {
+        width: 80%;
+
+        @include rwd(568) {
+            width: 90%;
+        }
+    }
+
+    &__wrapper {
+        border: 1.5rem solid $primary-color;
+        padding: 6.4rem 3.2rem;
+        position: relative;
+
+        @include rwd(768) {
+            border: 1.3rem solid $primary-color;
+        }
+
+        .story__border {
+            position: absolute;
+            display: block;
+            content: "";
+            background-color: $primary-color;
+        }
+
+        .top {
+            top: 1rem;
+            right: 1rem;
+            left: 1rem;
+            height: 1.5rem;
+
+            @include rwd(768) {
+                height: 1.3rem;
+            }
+        }
+
+        .left {
+            top: 1rem;
+            left: 1rem;
+            bottom: 1rem;
+            width: 1.5rem;
+
+            @include rwd(768) {
+                width: 1.3rem;
+            }
+        }
+
+        .bottom {
+            bottom: 1rem;
+            left: 1rem;
+            right: 1rem;
+            height: 1.5rem;
+
+            @include rwd(768) {
+                height: 1.3rem;
+            }
+        }
+
+        .right {
+            top: 1rem;
+            right: 1rem;
+            bottom: 1rem;
+            width: 1.5rem;
+
+            @include rwd(768) {
+                width: 1.3rem;
+            }
+        }
+
+        .story__heading {
+            font-weight: 400;
+            font-size: 5rem;
+            text-transform: uppercase;
+            line-height: 6rem;
+
+            @include rwd(768) {
+                font-size: 3.2rem;
+                line-height: 3.8rem;
+            }
+        }
+
+        img {
+            width: 34.8rem;
+            height: 2rem;
+            margin-bottom: 4.8rem;
+
+            @include rwd(768) {
+                width: 20rem;
+                height: 1.1rem;
+            }
+        }
+
+        .story__text {
+            line-height: 2.4rem;
+            font-size: 1.7rem;
+            max-width: 80rem;
+            margin: auto;
+
+           @include rwd(768) {
+                line-height: 2.1rem;
+                font-size: 1.4rem;
+            }
+
+            &:not(:last-child) {
+                margin-bottom: 1.6rem;
+            }
+        }
+    }
+}

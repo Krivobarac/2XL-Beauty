@@ -1,0 +1,19 @@
+@use "abstracts/index" as *;
+
+.features {
+    @include flex($justify: space-between);
+
+    img {
+        object-fit: contain;
+
+        @include rwd(992) {
+            width: 8rem;
+            height: 8rem;
+        }
+
+        @include rwd(568) {
+            width: 4rem;
+            height: 4rem;
+        }
+    }
+}
